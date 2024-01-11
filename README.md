@@ -1,2 +1,16 @@
 # GoobyBox
-I/O Shield for Arduino UNO
+
+This project is `GoobyBox`. It's an IO-shield for Arduino UNO. 
+The purpose with this project is to provide a simple solution for controlling:
+
+ * 4 x Analog 0-10V inputs
+ * 3 x PWM current 0-2A
+ * 3 x Digital output current 0-2A
+ * 6 x Digital input 24V protection
+ * 12/24 voltage supply
+ * I2C connection for LCD
+
+This project contains two projects - Surface Mounted Technology(SMT) and Through Hole Technology Mounting (THT).
+
+Software being used: KiCAD 6
+

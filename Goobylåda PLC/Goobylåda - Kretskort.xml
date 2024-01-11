@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\Utbildning\Kurskatalog\4.04. Styr och Reglerteknik\7 Övningar\Laborationer\Goobylåda\Goobylåda PLC\Goobylåda - Kretskort.kicad_sch</source>
+    <date>2022-08-26 13:30:34</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ITH PLC</title>
+        <company>Institutet för tillämpad hydraulik</company>
+        <rev>-</rev>
+        <date>2021-12-02</date>
+        <source>Goobylåda - Kretskort.kicad_sch</source>
+        <comment number="1" value="Daniel Mårtensson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_UNO_R3</value>
+      <footprint>Module:Arduino_UNO_R3</footprint>
+      <datasheet>https://www.arduino.cc/en/Main/arduinoBoardUno</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_UNO_R3" description="Arduino UNO Microcontroller Module, release 3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a7a076</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>33uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Goobylåda---Kretskort-rescue" part="CP-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c70abd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>33uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Goobylåda---Kretskort-rescue" part="CP-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c7f504</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>33uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Goobylåda---Kretskort-rescue" part="CP-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c874d5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.33uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Goobylåda---Kretskort-rescue" part="CP-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a7e2c1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Goobylåda---Kretskort-rescue" part="CP-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a7f0eb</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b8e490</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b8e4ce</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b8e50c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>600V 1A</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061bf5086</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b235d7</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b553d7</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b5e622</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061aa8c86</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061aba518</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061abb820</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>1N5400K</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061abcb60</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061aa7a5d</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab2daf</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab4586</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab5f47</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a8d8c3</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a8fd4e</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a90975</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a9135e</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a93960</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>5.2V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a9403a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>LCD 1602 kontakt</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b04431</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062b7cb75</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062b874b2</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062b8d351</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062b3c3ee</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062b9e6ed</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062b98a97</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062b92dca</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bb3658</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bae589</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062ba93da</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062ba4189</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bb86d4</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bbe224</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bc33cf</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bc8502</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bcd654</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Anslutning</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062bd31a8</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2222 </value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061afbbe3</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2222 </value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b51514</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N2222 </value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b628a2</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>IRF9630</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a40153561169a11dab</datasheet>
+      <libsource lib="Transistor_FET" part="IRF9383M" description="-22A Id, -30V Vds, 2.9mOhm Rds, P-Channel MOSFET, DirectFET MX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061bd9e2c</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>IRF9630</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a40153561169a11dab</datasheet>
+      <libsource lib="Transistor_FET" part="IRF9383M" description="-22A Id, -30V Vds, 2.9mOhm Rds, P-Channel MOSFET, DirectFET MX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b51505</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>IRF9630</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a40153561169a11dab</datasheet>
+      <libsource lib="Transistor_FET" part="IRF9383M" description="-22A Id, -30V Vds, 2.9mOhm Rds, P-Channel MOSFET, DirectFET MX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b62893</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>2N2222 </value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b44223</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>2N2222 </value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b553e8</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>2N2222 </value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b5e633</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>MJE2955T</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MJ2955" description="-15A Ic, -60V Vce, Power PNP Transistor, TO-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b1be05</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>MJE2955T</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MJ2955" description="-15A Ic, -60V Vce, Power PNP Transistor, TO-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b553c5</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>MJE2955T</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MJ2955" description="-15A Ic, -60V Vce, Power PNP Transistor, TO-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b5e610</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b8e4b5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b5150c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b6289a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b172d2</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b5151a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b628a8</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b8e4a7</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b514f9</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b62887</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b8e484</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b514e4</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b62872</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b4f83e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b553fc</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b5e647</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k, 1W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b4704e</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k, 1W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b553ee</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1k, 1W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b5e639</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b1ef5a</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b553cb</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b5e616</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k, 250 mW</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061aa5e7e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1k, 250 mW</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061aa5253</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1k, 250 mW</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab2da9</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>1k, 250 mW</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab2da3</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1k, 250 mW</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab4580</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>1k, 250 mW</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab457a</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1k, 250 mW</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab5f41</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>1k, 250 mW</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ab5f3b</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a8ce4f</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a8fd48</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a9096f</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a91358</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a9395a</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a94034</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fc3a1b</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fce473</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fd3799</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fd81d0</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fdcc28</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fe1803</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM7812_TO220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="LM7812_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/Utbildning/Kurskatalog/4.04. Styr och Reglerteknik/7 Övningar/Laborationer/Goobylåda/Goobylåda PLC/Goobylåda - Kretskort.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a7abf9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Goobylåda---Kretskort-rescue" part="CP-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_UNO_R3">
+      <description>Arduino UNO Microcontroller Module, release 3</description>
+      <docs>https://www.arduino.cc/en/Main/arduinoBoardUno</docs>
+      <footprints>
+        <fp>Arduino*UNO*R3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_UNO_R3</field>
+        <field name="Footprint">Module:Arduino_UNO_R3</field>
+        <field name="Datasheet">https://www.arduino.cc/en/Main/arduinoBoardUno</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="3V3" type="power_out"/>
+        <pin num="5" name="+5V" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="A0" type="bidirectional"/>
+        <pin num="10" name="A1" type="bidirectional"/>
+        <pin num="11" name="A2" type="bidirectional"/>
+        <pin num="12" name="A3" type="bidirectional"/>
+        <pin num="13" name="SDA/A4" type="bidirectional"/>
+        <pin num="14" name="SCL/A5" type="bidirectional"/>
+        <pin num="15" name="D0/RX" type="bidirectional"/>
+        <pin num="16" name="D1/TX" type="bidirectional"/>
+        <pin num="17" name="D2" type="bidirectional"/>
+        <pin num="18" name="D3" type="bidirectional"/>
+        <pin num="19" name="D4" type="bidirectional"/>
+        <pin num="20" name="D5" type="bidirectional"/>
+        <pin num="21" name="D6" type="bidirectional"/>
+        <pin num="22" name="D7" type="bidirectional"/>
+        <pin num="23" name="D8" type="bidirectional"/>
+        <pin num="24" name="D9" type="bidirectional"/>
+        <pin num="25" name="D10" type="bidirectional"/>
+        <pin num="26" name="D11" type="bidirectional"/>
+        <pin num="27" name="D12" type="bidirectional"/>
+        <pin num="28" name="D13" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="AREF" type="input"/>
+        <pin num="31" name="SDA/A4" type="bidirectional"/>
+        <pin num="32" name="SCL/A5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM7812_TO220">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7812_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N2219">
+      <description>800mA Ic, 50V Vce, NPN Transistor, TO-39</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</docs>
+      <footprints>
+        <fp>TO?39*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2219</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-39-3</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MJ2955">
+      <description>-15A Ic, -60V Vce, Power PNP Transistor, TO-3</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF</docs>
+      <footprints>
+        <fp>TO?3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MJ2955</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-3</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF9383M">
+      <description>-22A Id, -30V Vds, 2.9mOhm Rds, P-Channel MOSFET, DirectFET MX</description>
+      <docs>https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a40153561169a11dab</docs>
+      <footprints>
+        <fp>DirectFET*MX*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF9383M</field>
+        <field name="Footprint">Package_DirectFET:DirectFET_MX</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a40153561169a11dab</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Goobylåda---Kretskort-rescue">
+      <uri>G:\Utbildning\Kurskatalog\4.04. Styr och Reglerteknik\7 Övningar\Laborationer\Goobylåda\Goobylåda PLC/Goobylåda - Kretskort-rescue.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="A1" pin="5" pinfunction="+5V" pintype="power_out"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="A1" pin="8" pinfunction="VIN" pintype="power_in"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="+24V">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/A0">
+      <node ref="A1" pin="9" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/A1">
+      <node ref="A1" pin="10" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/A2">
+      <node ref="A1" pin="11" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/A3">
+      <node ref="A1" pin="12" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/AI_0">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/AI_1">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/AI_2">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/AI_3">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/AO_0">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="13" name="/AO_1">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="14" name="/AO_2">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="15" name="/D8">
+      <node ref="A1" pin="23" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/D9">
+      <node ref="A1" pin="24" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/D10">
+      <node ref="A1" pin="25" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/D11">
+      <node ref="A1" pin="26" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/D12">
+      <node ref="A1" pin="27" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/D13">
+      <node ref="A1" pin="28" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/DI2">
+      <node ref="A1" pin="17" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/DI3">
+      <node ref="A1" pin="18" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/DI4">
+      <node ref="A1" pin="19" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/DI5">
+      <node ref="A1" pin="20" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="/DI6">
+      <node ref="A1" pin="21" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="/DI7">
+      <node ref="A1" pin="22" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/DI_0">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="/DI_1">
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="/DI_2">
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/DI_3">
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/DI_4">
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/DI_5">
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/DO_0">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="34" name="/DO_1">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="35" name="/DO_2">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="36" name="/SCL">
+      <node ref="A1" pin="14" pinfunction="SCL/A5" pintype="bidirectional"/>
+      <node ref="A1" pin="32" pinfunction="SCL/A5" pintype="bidirectional"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="37" name="/SDA">
+      <node ref="A1" pin="13" pinfunction="SDA/A4" pintype="bidirectional"/>
+      <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="38" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="39" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="43" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q8-Pad3)">
+      <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(Q9-Pad3)">
+      <node ref="Q9" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q12-Pad1)">
+      <node ref="Q12" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="IOREF" pintype="output+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(A1-Pad4)">
+      <node ref="A1" pin="4" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D0/RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(A1-Pad16)">
+      <node ref="A1" pin="16" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(A1-Pad30)">
+      <node ref="A1" pin="30" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
