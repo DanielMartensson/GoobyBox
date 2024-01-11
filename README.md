@@ -14,3 +14,6 @@ This project contains two projects - Surface Mounted Technology(SMT) and Through
 
 Software being used: KiCAD 6
 
+![a](https://github.com/DanielMartensson/GoobyBox/blob/main/Goobyl%C3%A5da%20PLC%20-%20Ytmonterad/Picture.png?raw=true)
+
+![a](https://github.com/DanielMartensson/GoobyBox/blob/main/Goobyl%C3%A5da%20PLC/Picture.png?raw=true)
