@@ -1,0 +1,29 @@
+Drill report for Goobylåda - Kretskort.kicad_pcb
+Created on 1/18/2024 10:28:14 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Goobylåda - Kretskort-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (933 holes)
+    T2  0.700mm  0.0276"  (60 holes)
+    T3  0.750mm  0.0295"  (18 holes)
+    T4  0.800mm  0.0315"  (52 holes)
+    T5  1.000mm  0.0394"  (54 holes)
+    T6  1.100mm  0.0433"  (23 holes)
+    T7  1.200mm  0.0472"  (20 holes)
+    T8  3.200mm  0.1260"  (4 holes)
+
+    Total plated holes count 1164
+
+
+Drill file 'Goobylåda - Kretskort-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
