@@ -18,6 +18,10 @@ Software being used: KiCAD 6
 
 ![a](https://github.com/DanielMartensson/GoobyBox/blob/main/Goobyl%C3%A5da%20PLC/Picture.png?raw=true)
 
-This is soldered according to class 3 in the soldering and assembly standard IPC J-STD-001
+This is soldered according to class 3 in the soldering and assembly standard IPC J-STD-001.
 
 ![a](https://github.com/DanielMartensson/GoobyBox/blob/main/Goobyl%C3%A5da%20PLC/PCB_done.jpg?raw=true)
+
+Notice that I'm using a `EBC`-transistor here instead of `CBE`-transistor for the analog output.
+
+![a](https://github.com/DanielMartensson/GoobyBox/blob/main/Goobyl%C3%A5da%20PLC/2N2222,_PN2222,_and_P2N2222_BJT_Pinout.jpg?raw=true)
