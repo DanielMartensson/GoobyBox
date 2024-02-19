@@ -22,6 +22,9 @@ This is soldered according to class 3 in the soldering and assembly standard IPC
 
 ![a](https://github.com/DanielMartensson/GoobyBox/blob/main/Goobyl%C3%A5da%20PLC/PCB_done.jpg?raw=true)
 
+![a](https://github.com/DanielMartensson/GoobyBox/blob/main/Goobyl%C3%A5da%20PLC/PCB_done_with_arduino.jpg?raw=true)
+
 Notice that I'm using a `EBC`-transistor here instead of `CBE`-transistor for the analog output.
 
 ![a](https://github.com/DanielMartensson/GoobyBox/blob/main/Goobyl%C3%A5da%20PLC/2N2222,_PN2222,_and_P2N2222_BJT_Pinout.jpg?raw=true)
+
